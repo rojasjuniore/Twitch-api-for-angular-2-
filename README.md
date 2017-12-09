@@ -1,6 +1,15 @@
 # ApiTwitch
 
+#DEMO -> [LIVE](https://rojasjuniore.github.io/Twitch-api-for-angular-2-/)
+
+![Texto Alt](http://streamersquare.com/wp-content/uploads/2017/09/Twitch-Extensions-and-New-API.png)
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
+
+
 
 ## Development server
 
