@@ -12,7 +12,7 @@ declare const Twitch: any;
 
 export class AppComponent {
 
-  CLIENT_ID = 'yuehfgwoztltlj94a8p6a3jlvb8fmb';
+  CLIENT_ID = '<CLIENT_ID>';
   title = 'app';
 
   user: Object;
@@ -25,7 +25,7 @@ export class AppComponent {
     Twitch.init(
       {
         clientId: this.CLIENT_ID,
-        redirect_uri: 'http://localhost:4200/#/'
+        redirect_uri: 'https://rojasjuniore.github.io/Twitch-api-for-angular-2-/'
       }, (error, status) => {
         if (status.authenticated) {
           this.getUser();
@@ -40,7 +40,7 @@ export class AppComponent {
 
   public login() {
     Twitch.login({
-      redirect_uri: 'http://localhost:4200/#/',
+      redirect_uri: 'https://rojasjuniore.github.io/Twitch-api-for-angular-2-/',
       scope: ['user_read', 'channel_read', 'channel_editor'],
 
     }, );
